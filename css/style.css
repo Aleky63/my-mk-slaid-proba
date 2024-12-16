@@ -1,0 +1,29 @@
+img {
+  width: 100%;
+  min-height: 700px;
+  object-fit: cover;
+}
+.swiper {
+  width: 1820px;
+  margin: 0 30px;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  margin: 0 10px;
+}
+
+.swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+}
+.swiper-pagination-bullet-active {
+  background-color: aliceblue;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: brown;
+}
